@@ -32,7 +32,7 @@ nav {
     width: 100%;
     margin: auto;
     display: flex;
-    line-height: 60px;
+    line-height: 50px;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -109,7 +109,7 @@ a.tbl-biru:hover {
 }
 
 a.tbl-hijau {
-    background: #445D48;
+    background: #1F4172;
     border-radius: 20px;
     margin-top: 10px;
     padding: 15px 20px 15px 20px;
@@ -120,7 +120,7 @@ a.tbl-hijau {
 }
 
 a.tbl-hijau:hover {
-    background: #1F4172;
+    background: #445D48;
     text-decoration: none;
 }
 
@@ -135,4 +135,81 @@ h2 {
     text-align: center;
     font-family: 'open sans', sans-serif;
     color: black;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.publik {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1F4172;
+    width: 100%;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 991.98px){
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav.menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li{
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        height: auto;
+    }
 }
